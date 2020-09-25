@@ -6,6 +6,143 @@
     android:layout_height="match_parent"
     tools:context=".SecondaryActivity">
 
+    <TextView
+        android:id="@+id/textView_tu_taco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tu Taco!"
+        android:textColor="#414A45"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <TextView
+        android:id="@+id/textView_label_carne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Carne: "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_tu_taco"
+        app:layout_constraintVertical_bias="0.074" />
+    <TextView
+        android:id="@+id/textView_carne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.025"
+        app:layout_constraintStart_toEndOf="@+id/textView_label_carne"
+        app:layout_constraintTop_toBottomOf="@+id/textView_tu_taco"
+        app:layout_constraintVertical_bias="0.074" />
+
+    <TextView
+        android:id="@+id/textView_label_salsa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salsa: "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.094"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_label_carne"
+        app:layout_constraintVertical_bias="0.042" />
+    <TextView
+        android:id="@+id/textView_salsa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.025"
+        app:layout_constraintStart_toEndOf="@+id/textView_label_salsa"
+        app:layout_constraintTop_toBottomOf="@+id/textView_label_carne"
+        app:layout_constraintVertical_bias="0.042" />
+
+
+    <TextView
+        android:id="@+id/textView_label_limon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Limón: "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.094"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_label_salsa"
+        app:layout_constraintVertical_bias="0.042" />
+    <TextView
+        android:id="@+id/textView_limon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.025"
+        app:layout_constraintStart_toEndOf="@+id/textView_label_limon"
+        app:layout_constraintTop_toBottomOf="@+id/textView_label_salsa"
+        app:layout_constraintVertical_bias="0.042" />
+
+
+    <TextView
+        android:id="@+id/textView_label_cilantro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cilantro: "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.094"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_label_limon"
+        app:layout_constraintVertical_bias="0.042" />
+    <TextView
+        android:id="@+id/textView_cilantro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.025"
+        app:layout_constraintStart_toEndOf="@+id/textView_label_cilantro"
+        app:layout_constraintTop_toBottomOf="@+id/textView_label_limon"
+        app:layout_constraintVertical_bias="0.042" />
+
+
+    <TextView
+        android:id="@+id/textView_label_cebolla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cebolla: "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.094"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_label_cilantro"
+        app:layout_constraintVertical_bias="0.042" />
+    <TextView
+        android:id="@+id/textView_cebolla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.025"
+        app:layout_constraintStart_toEndOf="@+id/textView_label_cebolla"
+        app:layout_constraintTop_toBottomOf="@+id/textView_label_cilantro"
+        app:layout_constraintVertical_bias="0.042" />
+
+
+
+
+
+
     <Button
         android:id="@+id/boton_regresar"
         android:layout_width="wrap_content"
@@ -15,5 +152,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.515" />
+        app:layout_constraintVertical_bias="0.896" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
